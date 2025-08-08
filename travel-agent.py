@@ -1,5 +1,10 @@
+# from textwrap import dedent
 from textwrap import dedent
-from agno.agent import Agent
+try:
+    from agno.agent import Agent
+except ImportError:
+    Agent = None
+# TODO: Install the 'agno' package or replace this import with the correct agent implementation.
 from agno.tools.serpapi import SerpApiTools
 import streamlit as st
 import re
