@@ -1,3 +1,6 @@
+streamlit
+icalendar
+agno
 streamlit 
 agno
 openai
